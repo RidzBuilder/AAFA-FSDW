@@ -1,0 +1,29 @@
+project:
+  id: aafa-fsdw
+  name: AAFA-FSDW Operational Kernel
+  version: 0.1.0
+
+governance:
+  aafa: "v1.0"
+  fsdw: "v0.1"
+  kernel: "v0.1"
+  implementation_contract: "v0.1"
+  implementation_planning: "accepted"
+  coding_authorization: "passed"
+
+target:
+  repository: "RidzBuilder/AAFA-FSDW"
+  default_branch: "main"
+  implementation_branch: "implementation/kernel-v0.1"
+
+claims:
+  e4_agentic_proof: "not established"
+  e5_reproducible_conformance: "not established"
+  aafa_conformance: "not established"
+
+controls:
+  no_evidence_no_pass: true
+  no_silent_bypass: true
+  build_is_not_proof: true
+  run_is_not_conformance: true
+  adapter_is_not_proof: true
